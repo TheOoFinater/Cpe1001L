@@ -1,0 +1,13 @@
+git config --global user.name "Louisguens Valssaint"
+git config --global user.email "lvalssai@students.kennesaw.edu"
+Move R0, 1
+Move R1, 3
+Move R2, 10
+Subtract R3, R0, R2
+Divide R0, R3, R1
+Store R0, [D0]
+#Correct me if i'm wrong when you wake up, but we're supposed to input our week 2 assignment answers into the emulator, if there's errors panel shines red, if correct it shines green, right?
+#So currently were just trying to make the emulator understand the cpe1001L language, and correctly translate it.
+#Currently trying to figure out the next step after the completed parcing, the week 7 examples in D2L got me a bit stumped. 
+#That previous coding class taught me jack, I know so little I can't even comprehend how little I know.
+#I've already drunk multiple 5 hour energys so I'm not going to sleep anytime soon. I'll try searching for some possible leads and resources till we meet up.

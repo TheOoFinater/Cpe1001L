@@ -1,0 +1,7 @@
+Move R0, 2
+Move R1, 2
+Multiply R2, R0, R1
+Multiply R2, R0, R2
+Multiply R2, R0, R2
+Multiply R2, R0, R2
+Store R2, [D0]

@@ -1,0 +1,20 @@
+Move R0, 5
+Move R1, 3
+Move R1, 2
+Store R1, [D0]
+Store R2, [D1]
+Move R1, 1
+Add R0, R1
+Store R0, [D2]
+Load D0, [R0]
+Move R1, 1
+Add R0, R1
+Store R0, [D0]
+Move R1, 1
+Add R0, R1
+Store R0, [D1]
+Load [D0], R1
+Load [D1], R2
+Load [D2], R3
+Add R1, R2, R3 
+Store R0
