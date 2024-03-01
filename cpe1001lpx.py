@@ -1,5 +1,4 @@
 import sys
-from nltk.tokenize import word_tokenize
 
 file_name = sys.argv[1]
 
@@ -11,6 +10,3 @@ for line in lines:
     count += 1
     line = line.strip()
     print("Line {}: {}".format(count, line.strip()))
-s = file1
-tokens = word_tokenize(s)
-print(tokens)
